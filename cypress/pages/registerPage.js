@@ -1,10 +1,10 @@
 // https://naveenautomationlabs.com/opencart/index.php?route=account/register
 
-class registerPage{
+export class registerPage{
 
 weblocators = {
     firstName: '#input-firstname',
-    lastName: "input-lastname",
+    lastName: "#input-lastname",
     email: '#input-email',
     continue:'.btn.btn-primary'
 }
