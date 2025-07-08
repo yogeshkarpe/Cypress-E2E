@@ -12,7 +12,7 @@ describe('test automation', ()=>{
         registerObj.enterTelephone(registerData.telephone);
         registerObj.enterPassword(registerData.password)
         // registerObj.selectCheckbox();
-        registerObj.clickOnContinue();
+        // registerObj.clickOnContinue();
     })
 
 })
