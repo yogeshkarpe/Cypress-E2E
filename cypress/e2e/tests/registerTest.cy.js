@@ -2,6 +2,9 @@ import { registerPage } from '../../pages/registerPage';
 
 const registerObj = new registerPage();
 
+const testData = require('../../fixtures/registerData.json');  // another way to import fixture data
+// testData.firstName
+
 describe('test automation', () => {
   it('register page', () => {
     cy.fixture('registerData').then((registerData) => {
